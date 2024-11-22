@@ -3,8 +3,6 @@ provider "aws" {
   # profile = "panda" # tylko gdy istnieje taki --profile w ~/.aws/credentials
 }
 
- terraform
-
 terraform {
   backend "s3" {
     bucket = "adam-jozefowicz-panda-devops-core-19"
